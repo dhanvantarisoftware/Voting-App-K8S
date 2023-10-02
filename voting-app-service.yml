@@ -3,8 +3,7 @@ kind: Service
 metadata:
   name: voting-service
   labels:
-    name: voting-service
-    app: demo-voting-app
+    app: voting-app
 spec:
   ports:
   - port: 80
@@ -12,4 +11,4 @@ spec:
   type: LoadBalancer
   selector:
      name: voting-app-pod
-     app: demo-voting-app
+     app: voting-app

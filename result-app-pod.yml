@@ -4,10 +4,10 @@ metadata:
   name: result-app-pod
   labels:
     name: result-app-pod
-    app: demo-voting-app
+    app: voting-app
 spec:
   containers:
   - name: result-app
-    image: dockersamples/examplevotingapp_result
+    image: dhanvantarisoftware/resultapp-image
     ports:
      - containerPort: 80
