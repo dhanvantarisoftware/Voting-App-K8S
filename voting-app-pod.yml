@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: voting-app-container
-    image: dhanvantarisoftware/votingapplication
+    image: dhanvantarisoftware/votingapp-image
     ports:
          - containerPort: 80
