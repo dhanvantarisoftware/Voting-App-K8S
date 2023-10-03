@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: result-app
-    image: dhanvantarisoftware/resultapp-image
+    image: dhanvantarisoftware/result-image
     ports:
      - containerPort: 80

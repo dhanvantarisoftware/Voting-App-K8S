@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: voting-service
   labels:
+    name: voting-service
     app: voting-app
 spec:
   ports:
