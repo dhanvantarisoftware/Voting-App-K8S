@@ -6,6 +6,7 @@ Modified to work on Kubernetes
 
 Just clone this repository and switch into the repository then execute the script for the deployment
 ```sh
+yum install git -y
 git clone https://github.com/dhanvantarisoftware/Voting-App-K8S.git
 cd Voting-App-K8S
 chmod +x myscript.sh
